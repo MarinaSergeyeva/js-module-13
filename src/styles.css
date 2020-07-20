@@ -18,3 +18,20 @@ body {
    */
   /* background-image: url('./images/bg-pattern.png'); */
 }
+
+.search-form {
+  margin-bottom: 50px;
+}
+
+.gallery {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-around;
+}
