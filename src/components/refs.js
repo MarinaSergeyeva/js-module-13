@@ -3,6 +3,8 @@ const refs = {
   searchForm: document.querySelector('.search-form'),
   searchQuery: document.querySelector('.search-input'),
   searchBtn: document.querySelector('.submit-button'),
+  loadMoreBtn: document.querySelector('.load-more-button'),
+  spinner: document.querySelector('.lds-ellipsis'),
 };
 // console.dir(refs.searchQuery);
 // console.dir(refs.searchBtn);

@@ -9,5 +9,3 @@ PNotify.defaults.styling = 'material';
 PNotify.defaults.icons = 'material';
 
 // PNotify.alert('Notice me, senpai!');
-
-import * as basicLightbox from 'basiclightbox';

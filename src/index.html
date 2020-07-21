@@ -13,12 +13,31 @@
 <body>
   <form class="search-form" id="search-form">
     <input class="search-input" type="text" name="query" autocomplete="off" placeholder="Search images..." />
-    <button class="submit-button" type="submit" name="button">Search</button>
+    <button class="submit-button btn btn-ellipse" type="submit" name="button">Search</button>
   </form>
 
   <ul class="gallery js-gallery">
     <!-- Список <li> с карточками изображений -->
   </ul>
+
+  <template>
+    <div class="modal"></div>
+  </template>
+
+
+  <button class="load-more-button btn btn-ellipse is-hidden" type="button" data-action="load-more">Show more</button>
+
+  <button class="btn toTopBtn is-hidden" id="toTopBtn" title="Go to top"><span class="material-icons">
+      arrow_upward
+    </span></button>
+
+  <div class="lds-ellipsis is-hidden">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+
 </body>
 
 </html>
